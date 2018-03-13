@@ -57,8 +57,8 @@ const styles = {
     color: 'white',
     textAlign: 'center',
     marginBottom: 15,
-    marginLeft: 20,
-    marginRight: 20
+    paddingLeft: 10,
+    paddingRight: 10
   },
   buttonStyle: {
     backgroundColor: '#0288D1'
