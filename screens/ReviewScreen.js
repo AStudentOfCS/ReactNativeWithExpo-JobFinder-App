@@ -9,7 +9,7 @@ class ReviewScreen extends Component {
     return {
       title: 'Review Jobs',
       tabBarIcon: ({ tintColor }) => {
-          return <Icon name="favorite" size={30} color={tintColor} />
+          return <Icon name="favorite" size={25} color={tintColor} />
       },
       headerRight: (
         <Button

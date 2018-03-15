@@ -11,7 +11,7 @@ class DeckScreen extends Component {
     return {
       title: 'Jobs',
       tabBarIcon: ({ tintColor }) => {
-          return <Icon name="description" size={30} color={tintColor} />
+          return <Icon name="description" size={25} color={tintColor} />
       }
     };
   };
@@ -33,7 +33,6 @@ class DeckScreen extends Component {
             cacheEnabled={Platform.OS === 'android'}
             initialRegion={initialRegion}
           >
-
           </MapView>
         </View>
 

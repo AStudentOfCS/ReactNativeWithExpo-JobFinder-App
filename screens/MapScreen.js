@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, ActivityIndicator } from 'react-native';
+import { View, ActivityIndicator } from 'react-native';
 import { MapView } from 'expo';
 import { connect } from 'react-redux';
 import { Button, Icon } from 'react-native-elements';
@@ -11,7 +11,7 @@ class MapScreen extends Component {
     return {
       title: 'Map',
       tabBarIcon: ({ tintColor }) => {
-          return <Icon name="my-location" size={30} color={tintColor} />
+          return <Icon name="my-location" size={25} color={tintColor} />
       }
     };
   };
